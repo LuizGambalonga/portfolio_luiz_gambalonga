@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portifolio Luiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                  <a class="navbar-item" href="index.html">
+                    Inicio
+                  </a>
+            
+                  <a class="navbar-item" href="contato.html">
+                    Contato
+                  </a>
+                  </div>
+                </div>
+          </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img  src="img/luiz_gambalonga.png" >
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-content">
+                              <p class="title is-6">Luiz Henrique Gambalonga Serafim</p>
+                               <span class="tag is-dark is-small">HTML5</span>
+                               <span class="tag is-dark is-small">CSS3</span>
+                               <span class="tag is-dark is-small">JAVASCRIPT</span>
+                            </div>
+                          </div> 
+                          <div class="content">
+                            <p><i class="fas fa-mobile"></i> (48) 998036921</p>
+                            <p class="">E-mail: gambalongaluizhenrique@gmail.com
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column is-9">
+                    <div class="card">
+                        <header class="card-header">
+                          <p class="card-header-title">
+                            Sobre mim 
+                          </p>
+                          <button class="card-header-icon" aria-label="more options" onclick="mostrarSobre()" >
+                            <span class="icon">
+                              <i class="sobremimicone fas fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                          </button>
+                        </header>
+                        <div class="card-content" id="visible">
+                          
+                          <div class="content">
+                            <p>Sou uma pessoa extrovertida, focada em obter os melhores resultados e sempre evolução continua de meus conhecimentos para aprimorar as habilidades.</p>
+                            <P>Gosto de sempre estar por dentro das tendências das técnologias.</P>
+                            
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                      
+                        <header class="card-header">
+                            <p class="card-header-title">
+                            Experiencias 
+                            </p>
+                            <button class="card-header-icon" aria-label="more options" onclick="mostrarexperiencia()">
+                              <span class="icon">
+                                <i class="experienciasicone fas fa-angle-right" aria-hidden="true"></i>
+                              </span>
+                            </button>
+                        </header>
+
+                        <div class="card-content" id="visible-experiencia1">
+                            <div class="content">
+                                <div class="columns">
+                                    <div class="column is-3">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="img/developer.jpg">
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <p class="title is-5">Front-End Developer <span class="tag is-primary is-title-5">Kav Sistemas</span> <span class="tag is-primary is-title-5">08/2021 - até o momento</span></p>
+                                        <p>Desenvolvimento de WebSites utilizando as técnologias (HTML/CSS/JAVASCRIPT e BOOTSTRAP), eventuais alterações/melhorias em códigos no Back-End com Java ou PHP.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content" id="visible-experiencia2">
+                          <div class="content">
+                              <div class="columns">
+                                  <div class="column is-3">
+                                      <figure class="image is-128x128">
+                                          <img class="is-rounded" src="img/technical-support-content.png">
+                                      </figure>
+                                  </div>
+                                  <div class="column is-9">
+                                      <p class="title is-5">Suporte Técnico <span class="tag is-warning is-title-5">Thomson Reuters</span> <span class="tag is-warning is-title-5">2019 - 2021</span></p>
+                                      <p>Suporte ao uso do Sistema ERP(Dominio Contabil) na parte Técnica, dúvidas dos clientes perante ao uso do sistema, ferramentas auxiliares como (Backup, Gerenciador de atualizações entre outras ferramentas), auxilio de novos colaborades e treinamentos internos.</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <header class="card-header">
+                          <p class="card-header-title">
+                           Formação
+                          </p>
+                          <button class="card-header-icon" aria-label="more options" onclick="mostrarFormacao()">
+                            <span class="icon">
+                              <i class="formacaoicone fas fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                          </button>
+                        </header>
+                        <div class="card-content" id="visible-formacao">
+                          <div class="content">
+                            <p class="title is-6">Barachel Sistemas de Informação - Faculdades Esucri. Concluído em 12/2020</p>
+                            <p class="title is-6">FullStack JavaScript - OnibitCode. Curso Online Concluído em 03/2022</p>
+                                                     
+                          </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
